@@ -1,4 +1,6 @@
 import crypto from 'crypto'
+import dotenv from 'dotenv'
+dotenv.config();
 
 export const SECURITY_MODE_STANDALONE = 'cookie'
 export const SECURITY_MODE_JWT = 'jwt'
